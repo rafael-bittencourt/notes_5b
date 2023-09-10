@@ -1,0 +1,8 @@
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJhZmFlbCIsImlkIjoiNjRmNWQyNDZmOWQ4YmQ4OTExYThlODIyIiwiaWF0IjoxNjkzODMyNTA4fQ.VWfFuiMBGs5Gd617uGxqqWax33zgmZw61xX_yu29vuc
+
+{
+    "content": "Teste com usuario logado",
+    "important": true
+}
